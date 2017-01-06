@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["es2015", {"modules": false, "loose": true}],
+    "stage-0",
+    "react"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-decorators-legacy"
+      ]
+    }
+  }
+}
